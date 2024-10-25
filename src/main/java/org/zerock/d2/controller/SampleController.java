@@ -15,7 +15,7 @@ public class SampleController {
     @GetMapping("hello")
     public String[] hello() {
 
-        log.info("----------------------");
+        log.info("------------------");
         log.info("hello");
 
         return new String[] {"Hello", "World"};
