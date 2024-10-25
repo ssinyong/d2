@@ -17,6 +17,7 @@ public class SampleController {
 
         log.info("------------------");
         log.info("hello");
+        log.info("------------------");
 
         return new String[] {"Hello", "World"};
     }
